@@ -82,6 +82,7 @@ app.use("/api/school-gallery", require("./routes/school_gallery.routes"));
 app.use("/api/schools", require("./routes/school.routes"));
 app.use("/api/ai-timetable", require("./routes/ai_timetable.routes"));
 app.use("/api/contact", require("./routes/contact.routes"));
+app.use("/api/otp", require("./routes/otp.routes"));
 
 // Serve uploaded files
 const path = require("path");
